@@ -30,10 +30,7 @@ public class Employee implements Serializable {
 	} 
 	
 	@Id
-<<<<<<< HEAD
 	@GeneratedValue(strategy=GenerationType.IDENTITY) 
-=======
->>>>>>> refs/remotes/origin/master
 	public int getId() {
 		return this.id;
 	}
