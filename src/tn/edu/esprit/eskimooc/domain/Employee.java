@@ -1,4 +1,4 @@
-package tn.edu.esprit.eskimooc;
+package tn.edu.esprit.eskimooc.domain;
 
 import java.io.Serializable;
 import java.lang.Integer;
