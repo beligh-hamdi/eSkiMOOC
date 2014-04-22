@@ -20,5 +20,4 @@ public interface EmployeeServiceRemote {
 	 
 	 List<Employee> findEmployeesWithAddressParam(String address);
 	 
-	 
 }
