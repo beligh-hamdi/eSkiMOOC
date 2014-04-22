@@ -1,4 +1,4 @@
-package tn.edu.esprit.eskimooc;
+package tn.edu.esprit.eskimooc.domain;
 
 import java.io.Serializable;
 import java.lang.Integer;
@@ -30,6 +30,7 @@ public class Employee implements Serializable {
 	} 
 	
 	@Id
+	@GeneratedValue(strategy=GenerationType.IDENTITY) 
 	public int getId() {
 		return this.id;
 	}
